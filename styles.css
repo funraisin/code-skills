@@ -1,1 +1,39 @@
 @import 'reset.css';
+
+body {
+    padding: 50px;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    display: block;
+}
+
+footer p,
+header p {
+    text-align: center;
+    display: block;
+    margin: 20px;
+}
+
+.imagesSection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.imagesSection img {
+    flex: 0 0 300px;
+    display: block;
+    max-width: 300px;
+    margin: 20px;
+    border: 10px solid #ccc;
+}
